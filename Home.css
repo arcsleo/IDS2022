@@ -1,0 +1,377 @@
+* {
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+body {
+  margin: 0px !important;
+  background-color: rgb(236, 236, 236);
+}
+.HeadBanner {
+  background-image: url("http://u01vusgdipweb01/sites/UAQIntranet/SiteAssets/Root Home/Images/Banner1.jpeg");
+  background-size: cover;
+  background-position: top;
+}
+.BannerCover {
+  padding: 225px 245px;
+  padding-bottom: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: "Poppins";
+  line-height: 1.3;
+}
+.BannerFirstText {
+  font-size: 28px;
+}
+.BannerSecondText {
+  font-size: 35px;
+  font-weight: 600;
+}
+.FirstCover {
+  padding: 15px 15px;
+  display: flex;
+  font-family: "Poppins";
+}
+.SecondCover {
+  padding: 15px 15px;
+  display: flex;
+  font-family: "Poppins";
+  padding-top: 0px !important;
+}
+.MessageCover {
+  background-color: #fff;
+  padding: 5px 15px;
+  width: 39%;
+  padding-bottom: 15px;
+}
+.MessageWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.NewsCover {
+  background-color: #fff;
+  padding: 5px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 39%;
+  padding-bottom: 15px;
+  margin-left: 15px;
+}
+.CircularsCover {
+  background-color: #fff;
+  padding: 5px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 78% - 30px);
+  padding-bottom: 15px;
+  margin-left: 15px;
+}
+.EventsWrapper {
+  background-color: #fff;
+  padding: 5px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 78% - 30px);
+  padding-bottom: 15px;
+  margin-left: 15px;
+}
+.BoxHeader {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+}
+.MessagePhotoCover {
+  width: 40%;
+}
+.MessageTextCover {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+}
+.MessageName {
+  color: #ce2f4a;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 700;
+}
+.MessageDesig {
+  width: 100%;
+  color: #727272;
+  font-weight: 600;
+  font-size: 11px;
+}
+.MessageText {
+  font-size: 10px;
+  margin-top: 10px;
+  color: #727272;
+}
+.MessagePhoto {
+  width: 100%;
+}
+.NewsBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.secondNews {
+  margin-left: 15px;
+}
+#myCarousel {
+  width: 100%;
+}
+.NewsItem {
+  background: url("http://u01vusgdipweb01/sites/UAQIntranet/SiteAssets/Root Home/Images/palms.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 175px;
+  width: calc((100% - 15px) / 2);
+  position: relative;
+  cursor: pointer;
+}
+.NewsHover {
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  bottom: 0px;
+  padding: 5px;
+}
+.NewsTitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ce2f4a;
+}
+.NewsDec {
+  font-size: 10px;
+  font-weight: 600;
+  color: #727272;
+}
+.carousel-indicators {
+  display: none !important;
+}
+.BoxViewall {
+  width: 20%;
+  justify-content: flex-end;
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #ce2f4a;
+}
+.BoxText {
+  width: 80%;
+}
+.CircularHeadWrapper {
+  width: 100%;
+}
+.CircularDocuments {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid #727272;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.CircularDocumentItem {
+  width: 10%;
+}
+.CircularDocumentImage {
+  width: 100%;
+}
+.CircularItem {
+  width: 100%;
+  cursor: pointer;
+}
+.CircularDocumentName {
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 10px;
+  width: calc(100% - 25% - 10px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.circulardownloadicon {
+  width: 100%;
+}
+.CircularDownload {
+  width: 7%;
+  margin-left: 5%;
+}
+.QuickServiceWrapper {
+  background-color: #fff;
+  padding: 5px 15px;
+  width: calc((39% - 15px) / 2);
+  padding-bottom: 15px;
+}
+.PollsWrapper {
+  background-color: #fff;
+  padding: 5px 15px;
+  width: 39%;
+  padding-bottom: 15px;
+  margin-left: 15px;
+}
+.AnnouncementWrapper {
+  background-color: #fff;
+  padding: 5px 15px;
+  width: calc((39% - 15px) / 2);
+  padding-bottom: 15px;
+  margin-left: 15px;
+}
+.QuickServiceBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.QuickLinks {
+  width: 100%;
+  margin-top: 10px;
+}
+.QuickLinkItem {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.QuickLinkIcon {
+  width: 10%;
+}
+.QuickLinkTitle {
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.Announcements {
+  display: flex;
+  align-items: center;
+  color: #727272;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+.Announcements:hover {
+  background-color: #eeeeee !important;
+}
+.AnnouncementText {
+  width: 90%;
+  font-size: 11px;
+}
+.AnnouncementArrow {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.PollsBox {
+  width: 100%;
+}
+.EventsBox {
+  width: 100%;
+}
+.PollsSections {
+  display: flex;
+  align-items: center;
+}
+.PollsItem {
+  display: flex;
+  width: calc(50% - 15px);
+  flex-wrap: wrap;
+}
+.PollText {
+  font-size: 11px;
+  color: #727272;
+}
+.Pollcheckbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  column-count: 3;
+  column-gap: 5px;
+}
+.Pollradio {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.Pollradio label {
+  margin: 0px;
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.Pollradio input {
+  margin-right: 5px !important;
+  margin-top: 0px !important;
+  cursor: pointer;
+}
+.PollSubmit {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.PollSubmitButton {
+  padding: 5px 50px;
+  border: none;
+  border-radius: 30px;
+  font-size: 10px;
+  color: #fff;
+  background-color: #ce2f4a;
+}
+.SecondPoll {
+  margin-left: 15px;
+}
+.Events {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.EventDateWrapper {
+  width: calc(30% - 15px);
+  margin-right: 15px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ececec;
+  padding: 5px;
+}
+.EventsDetails {
+  width: 70%;
+}
+.EventTitle {
+  width: 100%;
+  font-size: 10px;
+  font-weight: 800;
+}
+.EventDec {
+  width: 100%;
+  font-size: 10px;
+  line-height: 0.6;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.EventMonth {
+  width: 100%;
+  text-align: center;
+}
+.EventDate {
+  width: 100%;
+  text-align: center;
+}
